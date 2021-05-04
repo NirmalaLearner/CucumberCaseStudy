@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3988700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-04T10:39:19.904Z",
+        "line": 10,
+        "name": "Register as Follow courses with valid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-follow-courses-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select the role Follow course",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.i_select_the_role_follow_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Fill valid details",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.fill_valid_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see Registration successful",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.i_should_see_registration_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I close my browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FollowCourse"
+          },
+          {
+            "name": "@ValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-04T10:39:20.181Z",
+        "line": 18,
+        "name": "Register as Teach courses with valid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-teach-courses-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4029200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select the role Tech course",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.i_select_the_role_tech_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Fill valid details",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.fill_valid_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see Registration successful",
+            "match": {
+              "location": "ValidStep_defnitions.Steps_ValidScenarios.i_should_see_registration_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I close my browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TeachCourse"
+          },
+          {
+            "name": "@ValidScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Valid Registration features",
+    "description": "This feature includes scenarios to validate the entire registration process as follows and Teach courses\n1) Register as Follow courses with valid details\n2) Register as Follow courses with valid details",
+    "id": "valid-registration-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Registration/ValidRegistration.feature",
+    "tags": []
+  }
+]
