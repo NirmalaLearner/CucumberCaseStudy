@@ -34,5 +34,16 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/NirmalaArjunan/Music/FullStackUpskill/Module1/Files/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NirmalaArjunan/Music/FullStackUpskill/Module1/Files/junit-4.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NirmalaArjunan/.m2/repository/io/cucumber/cucumber-testng/6.9.0/cucumber-testng-6.9.0.jar" sourcepath="C:/Users/NirmalaArjunan/.m2/repository/io/cucumber/cucumber-testng/6.9.0/cucumber-testng-6.9.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.cucumber"/>
+			<attribute name="maven.artifactId" value="cucumber-testng"/>
+			<attribute name="maven.version" value="6.9.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
