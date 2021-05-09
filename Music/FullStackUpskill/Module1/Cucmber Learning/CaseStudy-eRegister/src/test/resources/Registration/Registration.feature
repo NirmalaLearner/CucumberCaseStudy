@@ -54,11 +54,11 @@ Then I close my browser
 
 Examples:
 
-|firstname| lastname | email						 | username    |password | confirmpassword
-|testqa1  | qatest1  | testqa1@gmail.com |Hibiscus985  |testqa123|testqa123
-|testqa1  | qatest1  | testqa1@gmail.com |				     |testqa123|testqa123
-|testqa1  | qatest1  | testqa1@					 |testqa10     |testqa123|testqa123
-|testqa1  | qatest1  | testqa1@gmail.com |testqa10     |testqa123|testqa111
+|firstname| lastname | email						 | username    |password | confirmpassword |
+|testqa1  | qatest1  | testqa1@gmail.com |Hibiscus985  |testqa123|testqa123 |
+|testqa1  | qatest1  | testqa1@gmail.com |				     |testqa123|testqa123 |
+|testqa1  | qatest1  | testqa1@					 |testqa10     |testqa123|testqa123 |
+|testqa1  | qatest1  | testqa1@gmail.com |testqa10     |testqa123|testqa111 |
 
 @TeachCourse @InValidScenario
 Scenario Outline: Register as Teach with invalid details
@@ -72,9 +72,9 @@ Then I close my browser
 
 Examples:
 
-|firstname| lastname | email						 | username    |password | confirmpassword3
-|testqa1  | qatest1  | testqa1@gmail.com |Hibiscus985  |testqa123|testqa123
-|testqa1  | qatest1  | testqa1@gmail.com |				     |testqa123|testqa123
-|testqa1  | qatest1  | testqa1@					 |testqa10     |testqa123|testqa123
-|testqa1  | qatest1  | testqa1@gmail.com |testqa10     |testqa123|testqa111
+|firstname| lastname | email						 | username    |password | confirmpassword |
+|testqa1  | qatest1  | testqa1@gmail.com |Hibiscus985  |testqa123|testqa123 |
+|testqa1  | qatest1  | testqa1@gmail.com |				     |testqa123|testqa123 |
+|testqa1  | qatest1  | testqa1@					 |testqa10     |testqa123|testqa123 |
+|testqa1  | qatest1  | testqa1@gmail.com |testqa10     |testqa123|testqa111 |
 
