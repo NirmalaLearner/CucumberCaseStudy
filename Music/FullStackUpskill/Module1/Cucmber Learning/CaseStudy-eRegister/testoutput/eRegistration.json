@@ -1,0 +1,1557 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10921800900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:44:42.402Z",
+        "line": 11,
+        "name": "Register as Follow courses with valid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-follow-courses-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5678355500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113765700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select the role Follow course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_follow_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1987685800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Fill valid details",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.fill_valid_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2628510500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231387900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see Registration successful",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_registration_successful()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179519900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on user image icon",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_user_image_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76796400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "confirm registered email",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.confirm_registered_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1826115700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on homepage",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2927172700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on compose",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1599722700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Type existing username and select a mail",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.type_existing_username_and_select_a_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131646100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Type a mail subject",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.type_a_mail_subject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5608511000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Type mail content",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.type_mail_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2355214200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on send message",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_send_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70810000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify the message for successfully sending email",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.verify_the_message_for_successfully_sending_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2372655900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FollowCourse"
+          },
+          {
+            "name": "@ValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9629248800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:45:21.362Z",
+        "line": 29,
+        "name": "Register as Teach courses with valid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-teach-courses-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5404259000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149599700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select the role Teach course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_teach_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1321465300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Fill valid details",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.fill_valid_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2064478300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184507200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see Registration successful",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_registration_successful()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189493400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on user image icon",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_user_image_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117684800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "confirm registered email",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.confirm_registered_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1987684900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on homepage",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2957092900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on compose",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1210762000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Type existing username and select a mail",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.type_existing_username_and_select_a_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161565100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Type a mail subject",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.type_a_mail_subject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6234348300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Type mail content",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.type_mail_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2804586800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on send message",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_send_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59836000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Verify the message for successfully sending email",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.verify_the_message_for_successfully_sending_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2955095700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TeachCourse"
+          },
+          {
+            "name": "@ValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9595417400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:45:58.820Z",
+        "line": 58,
+        "name": "Register as Follow with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-follow-with-invalid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5466383600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180516400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I select the role Follow course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_follow_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1815146300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@gmail.com\",\"Hibiscus985\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@gmail.com\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Hibiscus985\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 94
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245670000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97737700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2434487700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FollowCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15950400100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:46:19.671Z",
+        "line": 59,
+        "name": "Register as Follow with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-follow-with-invalid-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4879952100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88761600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I select the role Follow course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_follow_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1477566300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@gmail.com\",\"\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@gmail.com\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 83
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1364351800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58841200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2004639300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FollowCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9630805500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:46:45.510Z",
+        "line": 60,
+        "name": "Register as Follow with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-follow-with-invalid-details;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4348400600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116687300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I select the role Follow course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_follow_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 990350900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@\",\"testqa10\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"testqa10\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 82
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1008813700,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62829700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2529236300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FollowCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11363182500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:47:04.214Z",
+        "line": 61,
+        "name": "Register as Follow with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-follow-with-invalid-details;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4246643900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143614600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I select the role Follow course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_follow_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1535949200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@gmail.com\",\"testqa10\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@gmail.com\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"testqa10\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 91
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1255641300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60817700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2130301300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FollowCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12093230000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:47:24.961Z",
+        "line": 76,
+        "name": "Register as Teach with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-teach-with-invalid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8069928400,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159572500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I select the role Teach course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_teach_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3189471500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@gmail.com\",\"Hibiscus985\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@gmail.com\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Hibiscus985\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 94
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1746327700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102722900,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5576114000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TeachCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8956088300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:47:55.909Z",
+        "line": 77,
+        "name": "Register as Teach with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-teach-with-invalid-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4166843300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144613400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I select the role Teach course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_teach_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1104045500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@gmail.com\",\"\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@gmail.com\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 83
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1918866300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97730700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3606355200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TeachCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14584406100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:48:15.914Z",
+        "line": 78,
+        "name": "Register as Teach with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-teach-with-invalid-details;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5190644600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194476500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I select the role Teach course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_teach_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1818228000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@\",\"testqa10\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"testqa10\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 82
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1688995500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59842200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1693469200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TeachCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8793995500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to signUp page from login page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.user_navigated_to_sign_up_page_from_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T17:48:41.153Z",
+        "line": 79,
+        "name": "Register as Teach with invalid details",
+        "description": "",
+        "id": "valid-registration-features;register-as-teach-with-invalid-details;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5547204400,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I click in SignUp link",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_in_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102723600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I select the role Teach course",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_select_the_role_teach_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2531230500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I fill some invalid Details \"testqa1\",\"qatest1\",\"testqa1@gmail.com\",\"testqa10\",\"testqa123\",\"\u003cconfirmpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa1\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"qatest1\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"testqa1@gmail.com\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"testqa10\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"testqa123\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"\u003cconfirmpassword\u003e\"",
+                  "offset": 91
+                }
+              ],
+              "location": "RegistrationProcess.RegistrationSteps.i_fill_some_invalid_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1738352500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71814100,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should see Respective error message on the page",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_should_see_respective_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1807160400,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I close my browser",
+            "match": {
+              "location": "RegistrationProcess.RegistrationSteps.i_close_my_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TeachCourse"
+          },
+          {
+            "name": "@InValidScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Valid Registration features",
+    "description": "This feature includes scenarios to validate the entire registration process as follows and Teach courses\n1) Register as Follow courses with valid details and confirm eamil and then compose, send email\n2) Register as Teach courses with valid details and confirm eamil and then compose, send email\n3) Register using invalid data and observe the errors",
+    "id": "valid-registration-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Registration/Registration.feature",
+    "tags": []
+  }
+]

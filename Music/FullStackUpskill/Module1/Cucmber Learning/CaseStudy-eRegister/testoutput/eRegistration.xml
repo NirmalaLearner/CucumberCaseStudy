@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="260.069">
+    <testcase classname="Valid Registration features" name="Register as Follow courses with valid details" time="38.94">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Follow course.........................................passed
+And Fill valid details......................................................passed
+And I click on register button..............................................passed
+And I should see Registration successful....................................passed
+And I click on user image icon..............................................passed
+Then confirm registered email...............................................passed
+When I click on homepage....................................................passed
+And I click on compose......................................................passed
+And Type existing username and select a mail................................passed
+And Type a mail subject.....................................................passed
+And Type mail content.......................................................passed
+And I click on send message.................................................passed
+Then Verify the message for successfully sending email......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Teach courses with valid details" time="37.436">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Teach course..........................................passed
+And Fill valid details......................................................passed
+And I click on register button..............................................passed
+And I should see Registration successful....................................passed
+And I click on user image icon..............................................passed
+Then confirm registered email...............................................passed
+When I click on homepage....................................................passed
+And I click on compose......................................................passed
+And Type existing username and select a mail................................passed
+And Type a mail subject.....................................................passed
+And Type mail content.......................................................passed
+And I click on send message.................................................passed
+Then Verify the message for successfully sending email......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Follow with invalid details" time="20.837">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Follow course.........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@gmail.com","Hibiscus985","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Follow with invalid details 2" time="25.829">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Follow course.........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@gmail.com","","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Follow with invalid details 3" time="18.691">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Follow course.........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@","testqa10","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Follow with invalid details 4" time="20.739">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Follow course.........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@gmail.com","testqa10","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Teach with invalid details" time="30.941">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Teach course..........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@gmail.com","Hibiscus985","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Teach with invalid details 2" time="19.998">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Teach course..........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@gmail.com","","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Teach with invalid details 3" time="25.234">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Teach course..........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@","testqa10","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Valid Registration features" name="Register as Teach with invalid details 4" time="20.595">
+        <system-out>
+            <![CDATA[Given User navigated to signUp page from login page.........................passed
+When I click in SignUp link.................................................passed
+And I select the role Teach course..........................................passed
+And I fill some invalid Details "testqa1","qatest1","testqa1@gmail.com","testqa10","testqa123","<confirmpassword>".passed
+And I click on register button..............................................passed
+Then I should see Respective error message on the page......................passed
+Then I close my browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

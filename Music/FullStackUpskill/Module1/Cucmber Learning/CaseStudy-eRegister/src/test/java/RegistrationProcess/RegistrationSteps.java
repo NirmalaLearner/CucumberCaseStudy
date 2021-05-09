@@ -21,7 +21,7 @@ public class RegistrationSteps extends TestBase {
 		//WebDriver driver;
 		String fn = "Niya123";
 		String ln = "Nila123"; 			
-		String un = "Hibiscus" + new Random().nextInt(1000);
+		String un = "Cosmos" + new Random().nextInt(1000);
 		String mail = "Daisy123@gmail.com";
 		String pass1 = "testRun123";
 		String pass2 = "testRun123";

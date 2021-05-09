@@ -1,4 +1,4 @@
-Feature: Valid Registration features
+Feature: Valid and InRegistration features
 This feature includes scenarios to validate the entire registration process as follows and Teach courses
 1) Register as Follow courses with valid details and confirm eamil and then compose, send email
 2) Register as Teach courses with valid details and confirm eamil and then compose, send email
@@ -23,6 +23,7 @@ And Type a mail subject
 And Type mail content
 And I click on send message
 Then Verify the message for successfully sending email
+Then I close my browser
 
 @TeachCourse @ValidScenario
 Scenario: Register as Teach courses with valid details
@@ -40,6 +41,7 @@ And Type a mail subject
 And Type mail content
 And I click on send message
 Then Verify the message for successfully sending email
+Then I close my browser
 
 @FollowCourse @InValidScenario
 Scenario Outline: Register as Follow with invalid details

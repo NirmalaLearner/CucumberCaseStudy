@@ -10,7 +10,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions (features = {"src\\test\\resources\\Registration\\Registration.feature"},
 glue ={"RegistrationProcess"},
-tags="@InValidScenario",
+//tags="@InValidScenario",
 dryRun=false,
 monochrome=true,
 strict=true,
